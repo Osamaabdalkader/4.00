@@ -72,20 +72,4 @@
     <!-- Firebase SDK -->
     <script type="module" src="app.js"></script>
 </body>
-</html> const userData = snapshot.val();
-                            // إظهار أيقونة الإدارة إذا كان المستخدم مشرفاً
-                            const adminIcon = document.getElementById('admin-icon');
-                            if (adminIcon && userData.isAdmin) {
-                                adminIcon.style.display = 'flex';
-                                adminIcon.addEventListener('click', () => {
-                                    window.location.href = 'admin.html';
-                                });
-                            }
-                        }
-                    }, { onlyOnce: true });
-                }
-            });
-        });
-    </script>
-</body>
-</html>
+</html> 
